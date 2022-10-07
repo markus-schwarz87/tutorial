@@ -8,6 +8,10 @@ gen/
 node_modules/
 target/
 
+dist/
+resources/
+app/*/package-lock.json
+
 # Web IDE, App Studio
 .che/
 .gen/

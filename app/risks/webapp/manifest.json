@@ -14,20 +14,20 @@
             "id": "@sap/generator-fiori:lrop",
             "version": "1.7.5",
             "toolsId": "09fc6703-1d96-491e-8078-5e1d195a2b6e"
-        }, 
+        },
         "crossNavigation": {
             "inbounds": {
-              "Risks-display": {
-                "signature": {
-                  "parameters": {},
-                  "additionalParameters": "allowed"
-                },
-                "semanticObject": "Risks",
-                "action": "display"
-              }
+                "Risks-display": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Risks",
+                    "action": "display"
+                }
             }
         },
-            "dataSources": {
+        "dataSources": {
             "mainService": {
                 "uri": "/service/risk/",
                 "type": "OData",
@@ -157,5 +157,5 @@
     "sap.cloud": {
         "public": true,
         "service": "cpapp.service"
-}
+    }
 }
